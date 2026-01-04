@@ -161,7 +161,7 @@ new TypeIt("#teks1", {
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["This is about your studies ", " ", "stop doom scrooling, your EXAMS are almost near. dont be like i will study later ", " ", "- Wish all you the best", "" , "~~ADIII~~" ],
+  strings: ["This is about your studies ", " ", "stop doom scrooling, your EXAMS are almost near. dont be like i will study later ", " ", "- Wish all you the best", "" , "~~ADIII~~", " ", "CONTINUED >>>>>>", ],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
@@ -446,4 +446,5 @@ function confetti() {
 
   if (!onlyOnKonami) poof();
 };
+
 
